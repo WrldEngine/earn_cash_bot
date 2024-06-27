@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["WrldEngine <kamscienceit123.kamran@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.7.0"
+asyncpg = "^0.29.0"
+sqlalchemy = "^2.0.30"
+redis = "^5.0.4"
+pydantic-settings = "^2.2.1"
+alembic = "^1.13.1"
+fluent-runtime = "^0.4.0"
+fluent-compiler = "^1.1"
+aiogram-i18n = "^1.4"
+black = "^24.4.2"
+pytest = "^8.2.2"
+pytest-asyncio = "^0.23.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

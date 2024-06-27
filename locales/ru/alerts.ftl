@@ -1,0 +1,1 @@
+alerts-currency_success = Валюта успешно установлена
